@@ -1,68 +1,46 @@
-/* navbar section */
-.ic-logo {
-  color: grey;
+.ic-logo{
+    color: grey ;
 }
 
-.nav-height {
-  height: 64px;
-  padding: 24px;
+.nav-height{
+    height: 64px;
+    padding: 24px;
 }
 
-/* homepage section */
-.bg-light-grey {
-  background-color: lightgray;
+.padding{
+    padding: 34px 24px;
+    background-color: #D8D8D8; 
 }
 
-.p-home-img {
-  padding: 32px 24px;
+.btn{
+    background-color: #4A4A4A;
+    color: white;
 }
 
-.p-btn {
-  padding: 8px;
+.fw-bold{
+    color: #4A4A4A;
 }
 
-.btt {
-  padding: 10px 130px;
+.card-colo{
+    color: #4A4A4A;
 }
 
-.bg-grey {
-  background-color: gray;
+.bgg{
+    background-color: #D8D8D8;
 }
 
-/* main-section */
-
-.card-img-p {
-  padding: 16px 16px;
+@media (max-width: 767.98px) {
+  .bgg {
+    background-color: transparent !important;
+  }
 }
 
-.b-p-8px {
-  padding-bottom: 8px;
+.bggc{
+    background-color: transparent;
 }
 
-/* middle section */
-
-.midhead-p {
-  padding-top: 32px;
-}
-
-.t-p-t {
-  padding-top: 16px;
-}
-
-.midsec-p {
-  padding: 16px 0 24px 16px;
-}
-
-.fix-p {
-  padding: 8px;
-}
-
-.card-p {
-  padding: 32px 72px;
-}
-
-/* footer section */
-
-.footerhead-p {
-  padding: 32px;
+@media (max-width: 767.98px) {
+  .bggc {
+    background-color: #D8D8D8 !important;
+  }
 }

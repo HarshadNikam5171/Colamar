@@ -1,277 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="index.css" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ColmarAcademy</title>
-</head>
-<!-- navbar section -->
-<nav class="navbar navbar-light bg-light d-flex">
-  <div class="container-fluid d-flex align-items-center">
-    <a class="navbar-brand" href="#">
-      <img src="images/ic-logo.svg" alt="" width="40" height="40" class="d-inline-block align-text-top" />
-      <span class="ic-logo"><strong class=""> COLMAR</strong>ACADEMY</span>
-    </a>
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link navbar-brand" aria-current="page" href="#">On Campus</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-brand" aria-current="page" href="#">Online</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-brand" aria-current="page" href="#">Or Companies</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link navbar-brand" aria-current="page" href="#">Sign in</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-<!-- homepage section -->
-
-<div class="container-fluid bg-light-grey">
-  <div class="row align-items-center py-5">
-    <div class="col-lg-7 col-md-12 d-flex p-home-img">
-      <img src="images/banner.jpg" alt="" class="img-fluid w-100" />
-    </div>
-    <div class="col-lg-5 col-md-12 text-center text-lg-start px-4 ps-lg-5 pt-4 pt-lg-0 ">
-      <h1 class="fw-bold  mb-3">Learn something <br>new everyday</h1>
-      <p class=" text-muted fw-bold mb-4 fs-5">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.</p>
-      <button class="bg-grey btn btt">Start here</button>
-    </div>
-
-  </div>
-</div>
-
-<!-- Main section -->
-<div class="container-fluid d-flex py-4 ">
-  <div class="row">
-    <div class="col-7 d-none d-lg-block">
-      <div class="row px-3 py-4">
-        <img src="images/information-main.jpg" alt="" width="60%" class=" img-fluid ">
+    <title>Colmar Project</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light d-flex">
+      <div class="container-fluid d-flex align-items-center">
+        <a class="navbar-brand" href="#">
+          <img
+            src="images/ic-logo.svg"
+            alt=""
+            width="40"
+            height="40"
+            class="d-inline-block align-text-top"
+          />
+          <span class="ic-logo d-none d-md-inline"
+            ><strong class=""> COLMAR</strong>ACADEMY</span
+          >
+        </a>
+        <ul class="nav">
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link navbar-brand" aria-current="page" href="#"
+              >On Campus</a
+            >
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link navbar-brand" aria-current="page" href="#"
+              >Online</a
+            >
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link navbar-brand" aria-current="page" href="#"
+              >Or Companies</a
+            >
+          </li>
+          <li class="nav-item d-none d-md-block">
+            <a class="nav-link navbar-brand" aria-current="page" href="#"
+              >Sign in</a
+            >
+          </li>
+          <li class="nav-item d-block d-md-none px-4">
+            <img src="images/ic-on-campus.svg" alt="" />
+          </li>
+          <li class="nav-item d-block d-md-none px-4">
+            <img src="images/ic-online.svg" alt="" />
+          </li>
+          <li class="nav-item d-block d-md-none px-4">
+            <img src="images/ic-login.svg" alt="" />
+          </li>
+        </ul>
       </div>
-      <div class="row ps-3">
-        <h1 class="h1text pb-3 fw-bold  mb-3">It doesnt hurt to keep practicing</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, quo tempora sed quia odit vel atque ea sunt
-          sapiente error esse repudiandae incidunt quaerat! Laboriosam totam temporibus expedita doloremque iste amet
-          nostrum?</p>
-        <p>Emanuel,Sr Strategist at Hiring.com</p>
-      </div>
-    </div>
-    <div class="col-5">
-      <div class="row">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="images/information-orientation.jpg" class="img-fluid rounded-start card-img-p h-auto w-35"
-                alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title b-p-8px">Orientation date</h5>
-                <p class="card-text b-p-8px">Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                <a href="#">Read more</a>
-              </div>
+    </nav>
+    <section>
+      <div class="container-fluid p-0 p-md-5" style="background-color: #d8d8d8">
+        <div class="row g-0">
+          <div class="col-12 col-md-7">
+            <img
+              src="images/banner.jpg"
+              alt=""
+              class="img-fluid w-100 h-100"
+              style="object-fit: cover"
+            />
+          </div>
+
+          <div class="col-12 col-md-5 d-flex align-items-center px-5">
+            <div>
+              <h1 class="fw-bold py-2">
+                Learn something <br />
+                new every day
+              </h1>
+              <h5 class="text-muted fw-bold py-2">
+                Lorem ipsum dolor sit amet,<br />consectetur adipiscing elit.
+              </h5>
+              <button class="btn w-100 px-5 my-3">Start Here</button>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="images/information-campus.jpg" class="img-fluid rounded-start card-img-p h-auto w-35"
-                alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title b-p-8px">Our campus</h5>
-                <p class="card-text b-p-8px">Find which campus is close by you</p>
-                <a href="#">Read more</a>
-              </div>
-            </div>
+    </section>
+    <section>
+      <div class="container-fluid p-0 p-md-5 mt-3 mt-md-0">
+        <div class="row g-0">
+          <div class="col-12 col-md-7 d-none d-md-block">
+            <img
+              src="images/information-main.jpg"
+              alt=""
+              class="img-fluid w-100"
+              style="object-fit: cover"
+            />
+            <h1 class="fw-bold py-2 mt-3 mb-2">
+              it doesn't hurt to keep practicing
+            </h1>
+            <p class="mb-5">
+              “Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+              commodo lectus, nec consequat neque. Sed non accumsan urna.
+              Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
+              dolor consequat, tristique ligula.”
+            </p>
+            <p>Emanual, Sr Strategies at Hiring.com</p>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0 bg-light-grey">
-            <div class="col-md-4">
-              <img src="images/information-guest-lecture.jpg" class="img-fluid rounded-start card-img-p h-auto w-35"
-                alt="...">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body ">
-                <h5 class="card-title b-p-8px">Our guest lecture</h5>
-                <p class="card-text b-p-8px">Join a key note with Oliver Sack about music in medical treatment</p>
-                <a href="#">Read more</a>
+
+          <div
+            class="col-12 col-md-5 d-flex flex-column align-items-center px-4"
+          >
+            <div
+              class="card mb-1 p-0 p-md-3 border-0 border-md"
+              style="max-width: 540px"
+            >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/information-orientation.jpg"
+                    class="img-fluid d-none d-md-block"
+                    alt="..."
+                  />
+                  <img
+                    src="images/information-orientation-mobile.jpg"
+                    class="img-fluid d-block d-md-none"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title card-colo">Orientation date</h5>
+                    <p class="card-text card-colo">
+                      Tue 10/11 & Wed 10/12: 8am-3pm
+                    </p>
+                    <p class="card-text">
+                      <small class="text-primary">Read more</small>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- middle Section -->
-<div class="container-fluid bg-light-grey">
-  <div class="row justify-content-center align-items-center text-center d-flex ">
-    <h1 class="midhead  midhead-p px-5 fw-bold  mb-3">Start learning</h1>
-  </div>
-  <!-- cards -->
-  <div class="row row-cols-1 row-cols-md-3 g-4 card-p">
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/course-software.jpg" class="card-img-top" alt="...">
-        <div class="card-body midsec-p">
-          <h5 class="card-title t-p-t">Software engineering</h5>
-          <p class="card-text-fix fix-p">COURSES</p>
-          <p class="card-text">Web Development, Mobile Development, iOT,APIs</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/course-computer-art.jpg" class="card-img-top" alt="...">
-        <div class="card-body midsec-p">
-          <h5 class="card-title t-p-t">Computer art</h5>
-          <p class="card-text-fix fix-p">COURSES</p>
-          <p class="card-text">Imagin & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/course-design.jpg" class="card-img-top" alt="...">
-        <div class="card-body midsec-p">
-          <h5 class="card-title t-p-t">Design</h5>
-          <p class="card-text-fix fix-p">COURSES</p>
-          <p class="card-text">User Experience Design, User Research, Visual Design </p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/course-data.jpg" class="card-img-top" alt="...">
-        <div class="card-body midsec-p">
-          <h5 class="card-title t-p-t">Data</h5>
-          <p class="card-text-fix fix-p">COURSES</p>
-          <p class="card-text">Data science,Big Data, SQL, Data Visualization</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/course-business.jpg" class="card-img-top" alt="...">
-        <div class="card-body midsec-p">
-          <h5 class="card-title t-p-t">Business</h5>
-          <p class="card-text-fix fix-p">COURSES</p>
-          <p class="card-text">Product Development, Business Development, Startup</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card h-100">
-        <img src="images/course-marketing.jpg" class="card-img-top" alt="...">
-        <div class="card-body midsec-p">
-          <h5 class="card-title t-p-t">Marketing</h5>
-          <p class="card-text-fix fix-p">COURSES</p>
-          <p class="card-text">Analytics, Content Marketing, Mobile Marketing</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>  
-
-  <!-- footer section -->
-  <div class="container-fluid pb-4">
-    <div class="row justify-content-center align-items-center text-center">
-      <h1 class="midhead  footerhead-p ">Thesis exhibit</h1>
-    </div>
-
-    <div class="row d-flex">
-      <div class="col w-60">
-        <div class="row px-3 pb-3">
-          <iframe width="60%" height="315" src="videos/thesis.mp4" title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div class="row ps-3">
-          <h2 class="footer-body-text pb-3"><b>Reimagine urban</b></h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id necessitatibus ad, sapiente aperiam non
-            temporibus! Quia quaerat porro, alias tempora nemo hic mollitia dicta culpa cum pariatur nostrum id ratione.
-          </p>
-        </div>
-      </div>
-      <!-- footer cards -->
-      <div class="col">
-        <div class="row w-40 ">
-          <div class="card mb-3 bg-light-grey" style="max-width: 540px;">
-            <div class="row g-0 ">
-              <div class="col-md-4">
-                <img src="images/thesis-fisma.jpg" class="img-fluid rounded-start card-img-p w-35 h-auto" alt="...">
+            <div
+              class="card mb-3 p-0 p-md-3 border-0 border-md"
+              style="max-width: 540px"
+            >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/information-campus.jpg "
+                    class="img-fluid d-none d-md-block"
+                    alt="..."
+                  />
+                  <img
+                    src="images/information-campus-mobile.jpg"
+                    class="img-fluid d-block d-md-none"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title card-colo">Our campus</h5>
+                    <p class="card-text card-colo">
+                      Find which campus is close by you
+                    </p>
+                    <p class="card-text">
+                      <small class="text-primary">Read more</small>
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-8 ">
-                <div class="card-body ">
-                  <h5 class="card-title">Fisma: Design and Prototype</h5>
-                  <p class="card-text">Designer showcase of new prototype product</p>
-
+            </div>
+            <div
+              class="card mb-3 p-0 p-md-3 border-0 border-md bgg bg-sm-transparent"
+              style="max-width: 540px"
+            >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/information-guest-lecture.jpg"
+                    class="img-fluid d-none d-md-block"
+                    alt="..."
+                  />
+                  <img
+                    src="images/information-guest-lecture-mobile.jpg"
+                    class="img-fluid d-block d-md-none"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title card-colo">Our guest lecture</h5>
+                    <p class="card-text card-colo">
+                      Join a keyonte with Oliver Sack about music in medical
+                      treatment
+                    </p>
+                    <p class="card-text">
+                      <small class="text-primary">Read more</small>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
-        <div class="row">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/thesis-now-and-then.jpg" class="img-fluid rounded-start card-img-p w-35 h-auto" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Now and then</h5>
-                  <p class="card-text">Research study about New York </p>
+      </div>
+    </section>
+    <section style="background-color: #eaebec">
+      <div class="container">
+        <h1 class="fw-bold py-5 text-center">Start Learning</h1>
+        <div
+          class="d-flex justify-content-evenly flex-wrap gap-1 gap-md-5 pb-5"
+        >
+          <div class="card bggc" style="width: 22rem">
+            <img
+              src="images/course-software.jpg"
+              class="card-img-top d-none d-md-block"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Software engineering</h5>
+              <p class="card-text d-none d-md-block">COURSES</p>
+              <p class="card-text d-none d-md-block">
+                Web Development, Mobile Development, IOT, APIs
+              </p>
+            </div>
+          </div>
+          <div class="card bggc" style="width: 22rem">
+            <img
+              src="images/course-computer-art.jpg"
+              class="card-img-top d-none d-md-block"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Computer art</h5>
+              <p class="card-text d-none d-md-block">COURSES</p>
+              <p class="card-text d-none d-md-block">
+                Imaging & Design, Web Design, Motion Draphics & Visual Effects,
+                Computer Animation
+              </p>
+            </div>
+          </div>
+          <div class="card bggc" style="width: 22rem">
+            <img
+              src="images/course-design.jpg"
+              class="card-img-top d-none d-md-block"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Design</h5>
+              <p class="card-text d-none d-md-block">COURSES</p>
+              <p class="card-text d-none d-md-block">
+                User Experience DEsign, USer Researh, Visual Design
+              </p>
+            </div>
+          </div>
+          <div class="card bggc" style="width: 22rem">
+            <img
+              src="images/course-data.jpg"
+              class="card-img-top d-none d-md-block"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Data</h5>
+              <p class="card-text d-none d-md-block">COURSES</p>
+              <p class="card-text d-none d-md-block">
+                Data Science, Big Data, SQL, Data Visualization
+              </p>
+            </div>
+          </div>
+          <div class="card bggc" style="width: 22rem">
+            <img
+              src="images/course-business.jpg"
+              class="card-img-top d-none d-md-block"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Business</h5>
+              <p class="card-text d-none d-md-block">COURSES</p>
+              <p class="card-text d-none d-md-block">
+                Product Development, Business Development, Startup
+              </p>
+            </div>
+          </div>
+          <div class="card bggc" style="width: 22rem">
+            <img
+              src="images/course-marketing.jpg"
+              class="card-img-top d-none d-md-block"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Marketing</h5>
+              <p class="card-text d-none d-md-block">COURSES</p>
+              <p class="card-text d-none d-md-block">
+                Analytics, Content Marketing, Mobile Marketing
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid px-0 px-md-5 pt-5">
+        <h1 class="fw-bold pb-5 text-center">Thesis exhibit</h1>
+        <div class="row g-0">
+          <div class="col-12 col-md-7">
+            <video
+              src="videos/thesis.mp4"
+              class="img-fluid w-100"
+              style="object-fit: cover"
+              controls
+              loop
+              autoplay
+            ></video>
+            <h1 class="fw-bold py-2 mt-3 mb-2 d-none d-md-block">
+              Peimagin urban
+            </h1>
+            <p class="mb-5 d-none d-md-block">
+              “Curabitur vitae libero in ipsum porttitor consequat. Aliquam et
+              commodo lectus, nec consequat neque. Sed non accumsan urna.
+              Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur
+              dolor consequat, tristique ligula.”
+            </p>
+          </div>
 
+          <div
+            class="col-12 col-md-5 d-flex flex-column align-items-center px-4 d-none d-md-block"
+          >
+            <div
+              class="card mb-1 p-3"
+              style="max-width: 540px; background-color: #d8d8d8"
+            >
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/thesis-fisma.jpg"
+                    class="img-fluid rounded-start"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title card-colo">
+                      Fisma: Design and Prototype
+                    </h5>
+                    <p class="card-text card-colo">
+                      Designer showcase of new prototype product
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3 p-3" style="max-width: 540px">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="images/thesis-now-and-then.jpg"
+                    class="img-fluid rounded-start"
+                    alt="..."
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title card-colo">Now and then</h5>
+                    <p class="card-text card-colo">
+                      Researh study about New York
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
-
-
-
-    </div>
-
-
-
-
-
- 
-
-  <!-- footer nav section -->
-  <footer class="bg-light py-3 mt-5 ps-3 pt-2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 text-center text-md-start">
-          &copy; 2016 Omar ACD SA. All rights reserved
-        </div>
-        <div class="col-md-6 text-center text-md-end">
-          <a href="#" class="text-decoration-none me-3">Terms</a>
-          <a href="#" class="text-decoration-none">Privacy</a>
-        </div>
+    </section>
+    <footer class="py-5 border-top">
+      <div class="container-fluid d-flex justify-content-between">
+        <p>&copy; 2016 Colmar Academy. All rights reserved.</p>
+        <p>Terms Privacy</p>
       </div>
-    </div>
-  </footer>
-
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
-
 </html>
